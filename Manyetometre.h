@@ -8,8 +8,8 @@
 #ifndef MANYETOMETRE_H_
 #define MANYETOMETRE_H_
 
-#include "BMM150.h"
-#include "BMP180.h"
+#include "BMM150/BMM150.h"
+#include "BMP180/BMP180.h"
 
 extern I2C_HandleTypeDef hi2c1;
 
